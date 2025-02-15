@@ -59,7 +59,8 @@ def ler_linha(linha, estado, soma):
 
 
 def main ():
-    estado = 0  # 0 será equivalente a OFF e 1 a ON
+    # Aqui podemos definir o estado inicial
+    estado = 1  # 0 será equivalente a OFF e 1 a ON
     soma = 0
 
     #* Determina se foi recebido um caminho para ficheiro
@@ -83,7 +84,7 @@ def main ():
     #* Nao foi dado um caminho para um ficheiro na invocação do programa => vai ser usado o stdin
 
     else:
-        print ("Estado inicial é OFF. Insira o texto:")
+        print ("Estado inicial é \"ON\". Insira o texto:")
 
         # Itera pelas linhas do stdin
         for linha in sys.stdin:
