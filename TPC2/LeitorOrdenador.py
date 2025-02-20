@@ -61,6 +61,19 @@ def le_texto (texto):
 
             posicao_leitor += 1
 
+    # fim do while (EOF) mete a ultima linha
+    strings.append(string)
+    string = ""
+    coluna_atual += 1
+
+    if coluna_atual == num_colunas:
+
+        nova_musica = Musica (strings [0], strings [1], strings [2], strings [3], strings [4], strings [5], strings [6])
+
+        lista_de_musicas.append (nova_musica)
+        strings = []
+        coluna_atual = 0
+
     return lista_de_musicas
 
 def ordenar_por_compositor (lista_de_musicas):
