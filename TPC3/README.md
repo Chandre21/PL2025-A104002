@@ -4,7 +4,7 @@
 - **Nome:** André Barbosa Teixeira
 - **Número de aluno:** A104002
 
-## Trabalho Para Casa Semana 2 ##
+## Trabalho Para Casa Semana 3 ##
 
 ### Problema ###
 1. Pretende-se criar em Python um pequeno conversor de MarkDown para HTML para os elementos descritos na "Basic Syntax" da Cheat Sheet.
