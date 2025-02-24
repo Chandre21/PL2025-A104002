@@ -1,6 +1,7 @@
 # PL2025-A104002
 
 ## De:
+![](foto.jpg)
 - **Nome:** André Barbosa Teixeira
 - **Número de aluno:** A104002
 
